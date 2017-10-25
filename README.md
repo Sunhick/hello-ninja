@@ -25,3 +25,15 @@ Helloworld using Ninja(build system) and GYP(meta-build system)
 ```sudo apt install ninja-build```
 
 ### Compiling the sources
+
+* To compile the sources, type -
+
+```$ GYP_GENERATORS=ninja gyp build.gyp --toplevel-dir=`pwd` --depth=0```
+
+the above command line will generate the ninja build files. And type the following command to build using ninja
+
+```$ ninja -C out/Defaults all```
+
+* Run the target as -
+
+```$ out/Defaults/helloworld```
