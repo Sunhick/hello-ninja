@@ -12,6 +12,16 @@ Helloworld using Ninja(build system) and GYP(meta-build system)
 
 ```sudo python setup.py install```
 
+* At this point GYP should be install in your system. To know where it's install simply type ```which gyp```.
+
 ### Installing Ninja
+
+* To install ninja-build on mac
+
+```brew install ninja```
+
+* on Linux (debian)
+
+```sudo apt install ninja-build```
 
 ### Compiling the sources
