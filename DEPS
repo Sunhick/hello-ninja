@@ -6,6 +6,6 @@ vars = {
 }
 
 deps = {
-   'src/buildtools':
+   'hello-ninja/buildtools':
      Var('chromium_git') + '/chromium/buildtools.git' + '@' +  Var('buildtools_revision'),
 }
