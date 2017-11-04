@@ -1,0 +1,7 @@
+# Build file for hello world
+
+executable("hellogn") {
+  sources = [
+    "main.cc"
+  ]
+}
